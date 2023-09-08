@@ -1,0 +1,15 @@
+.lzotero-link {
+    background: rgb(130, 0, 0);
+    color: white;
+    padding: 0.1em 0.2em;
+    border-radius: 0.2em;
+    margin: 0.2em;
+    &:hover {
+        background: rgb(200, 0, 0);
+        color: white;
+    }
+}
+.zotero-annotation-image {
+    border:2px solid #ddd;
+    max-width:100%;
+}

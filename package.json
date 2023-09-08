@@ -1,0 +1,30 @@
+{
+  "name": "logseq-zotero",
+  "version": "0.0.1",
+  "description": "Logseq zotero",
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
+  },
+  "default": "dist/index.html",
+  "scripts": {
+    "dev": "parcel ./index.html --public-url ./",
+    "build": "parcel build --public-url . --no-source-maps index.html parent.scss"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.15",
+    "@parcel/transformer-sass": "2.10.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.1",
+    "@semantic-release/npm": "^11.0.1",
+    "parcel": "^2.0.0",
+    "preact": "^10.5.13",
+    "semantic-release": "^22.0.7"
+  },
+  "logseq": {
+    "id": "logseq-zotero",
+    "icon": "./logo.png"
+  }
+}
